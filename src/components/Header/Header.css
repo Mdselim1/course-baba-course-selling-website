@@ -1,0 +1,20 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cmn_bg{
+    background-color: #02679F;
+}
+
+.nav_link {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.header_logo h3 , .footer_logo h3{
+    font-size: 25px;
+    color: #fff;
+}
