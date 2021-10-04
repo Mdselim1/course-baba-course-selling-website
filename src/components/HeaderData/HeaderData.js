@@ -27,7 +27,7 @@ const HeaderData = (props) => {
              Course Duration : {duration}
           </Typography>
           <Typography gutterBottom variant="h5" component="div">
-            Course Fee : {price}
+            Course Fee : {price} tk
           </Typography>
           <Typography gutterBottom variant="h5" component="div">
             College : {institution}

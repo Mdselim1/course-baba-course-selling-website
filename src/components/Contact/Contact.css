@@ -1,0 +1,16 @@
+.contact_field{
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.contact_field input , .contact_field textarea{
+    width: 100%;
+    padding: 15px;
+    margin:20px;
+    resize: none;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 1px solid darkblue;
+    outline: none;
+}
