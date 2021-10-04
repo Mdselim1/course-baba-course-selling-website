@@ -14,3 +14,7 @@
     border: 1px solid darkblue;
     outline: none;
 }
+
+.contact_field input:focus , .contact_field textarea:focus{
+    border-color: chartreuse;
+}
