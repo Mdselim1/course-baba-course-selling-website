@@ -1,5 +1,6 @@
 import { Button, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
 import React from 'react';
+import './ServiceDisData.css';
 
 const ServiceDisData = (props) => {
 
@@ -7,7 +8,7 @@ const ServiceDisData = (props) => {
 
     return (
         <div>
-            <Card>
+            <Card className="card" sx={{color: '#F9D209',bgcolor: '#0D3050'}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -23,16 +24,16 @@ const ServiceDisData = (props) => {
             Instructor Name : {instructor}
                     </Typography>
           <Typography gutterBottom variant="h6" component="div">
-             Course Duration : {duration}
+             Course Duration : {duration} days
           </Typography>
           <Typography gutterBottom variant="h5" component="div">
-            Course Fee : {price}
+            Course Fee : {price} tk
           </Typography>
           <Typography gutterBottom variant="h5" component="div">
             College : {institution}
           </Typography>
           
-          <Button sx={{my:'10px'}} variant="contained">Purchase Now</Button>
+          <Button sx={{my:'10px' , bgcolor:'crimson'}} color="success" variant="contained">Purchase Now</Button>
         </CardContent>
       </CardActionArea>
     </Card>

@@ -1,0 +1,12 @@
+.about__text li{
+   font-size: 20px;
+   padding: 15px 0 15px 0;
+   font-weight: 500;
+}
+
+.about_community{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}

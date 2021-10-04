@@ -1,13 +1,14 @@
-import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
+import { Button, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
 import React from 'react';
 
+
 const HeaderData = (props) => {
-    console.log(props);
 
     const {img , title , instructor ,institution , duration , price } = props.data
 
     return (
-        <Card>
+      <div>
+         <Card  className="card" sx={{color: '#F9D209',bgcolor: '#0D3050'}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -31,11 +32,14 @@ const HeaderData = (props) => {
           <Typography gutterBottom variant="h5" component="div">
             College : {institution}
           </Typography>
-          
+          <Button sx={{my:'10px' , bgcolor:'crimson'}} color="success" variant="contained">Purchase Now</Button>
                     
         </CardContent>
       </CardActionArea>
-    </Card>
+      </Card>
+      
+      </div>
+      
     );
 };
 

@@ -9,11 +9,13 @@ const Services = () => {
 
     const [data] = UiData();
 
+    
+
     return (
         <div>
             <Header></Header>
             <div className="container">
-                <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' , gridGap:'25px' , margin:'50px 0'}}>
+                <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' , gridGap:'50px' , margin:'50px 0'}}>
                 {
                 data.map(uidata => <ServiceDisData key={uidata.key} data={uidata}></ServiceDisData>)
                 }
