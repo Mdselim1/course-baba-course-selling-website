@@ -11,8 +11,6 @@ const Services = () => {
 
     const [data] = UiData();
 
-    
-
     return (
         <div>
             <Header></Header>

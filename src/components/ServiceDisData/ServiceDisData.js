@@ -4,7 +4,7 @@ import './ServiceDisData.css';
 
 const ServiceDisData = (props) => {
 
-    const {img , title , instructor ,institution , duration , price } = props.data
+  const { img, title, instructor, institution, duration, price } = props.data;
 
     return (
         <div>

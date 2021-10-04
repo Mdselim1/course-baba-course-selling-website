@@ -4,7 +4,7 @@ import React from 'react';
 
 const HeaderData = (props) => {
 
-    const {img , title , instructor ,institution , duration , price } = props.data
+  const { img, title, instructor, institution, duration, price } = props.data;
 
     return (
       <div>

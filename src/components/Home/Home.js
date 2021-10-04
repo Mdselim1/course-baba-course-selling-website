@@ -10,7 +10,7 @@ import HeaderData from '../HeaderData/HeaderData';
 const Home = () => {
 
     const [data] = UiData();
-    const newData = data.slice(0,3)
+    const newData = data.slice(0, 3);
 
     return (
         
