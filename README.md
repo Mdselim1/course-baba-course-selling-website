@@ -1,6 +1,6 @@
 # Course Baba Website By React Js
 
-## Corse Baba Website Link
+## Course Baba Website Link
 
 [Project Link](https://course-baba-assignment-09.netlify.app/).
 
@@ -12,13 +12,17 @@
 
 3 . Javascript,
 
+## Frame Work Use
+
 4 . React Js ,
 
-5 . Material Ui ,
+5 . React Router ,
 
-6 . React Router ,
+6 . Jsx
 
-7 . Jsx
+## Css Frame Work Use
+
+7 . Material Ui ,
 
 ## This is my Assignment 9 Project
 
