@@ -4,13 +4,13 @@
     height: 600px;
     margin: 100px auto 60px;
     border-radius: 50%;
-    background-color: #ff7200;
+    background-color: #FBE0E7;
 }
 
 .not_found_page h1{
     font-size: 150px;
     margin-bottom: 10px;
-    color: #fff;
+    color: crimson;
     line-height: 300px;
 }
 

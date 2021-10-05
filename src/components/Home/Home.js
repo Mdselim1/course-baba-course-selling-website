@@ -5,13 +5,12 @@ import { Link } from 'react-router-dom';
 import UiData from '../../hooks/uidata';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import HeaderData from '../HeaderData/HeaderData';
+import HomeData from '../HomeData/HomeData';
 
 const Home = () => {
 
     const [data] = UiData();
     const newData = data.slice(0, 3);
-
     return (
         
         <div>
@@ -22,14 +21,14 @@ const Home = () => {
             <div className="container">
                 <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' , gridGap:'50px' , margin:'50px 0'}}>
                 {
-                newData.map(uidata => <HeaderData key={uidata.key} data={uidata}></HeaderData>)
+                newData.map(uidata => <HomeData key={uidata.key} data={uidata}></HomeData>)
                 }
                 </Box>
                 <div style={{textAlign:'center'}}>
                     <Link style={{
                         textDecoration:'none'
                     }} to="/services">
-                    <Button sx={{mt:'20px' , mb:'40px' , py:'10px',px:'30px' ,bgcolor:'#F7B213' , color:'#16364D', fontSize:'20px', fontWeight:'600'}} variant="contained">See more Service</Button>
+                    <Button sx={{mt:'20px' , mb:'40px' , py:'10px',px:'30px' ,bgcolor:'crimson' , color:'#ffffff', fontSize:'20px', fontWeight:'600'}} variant="contained">See more Service</Button>
                 </Link>
                 </div>
             </div>

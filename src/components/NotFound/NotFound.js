@@ -13,7 +13,7 @@ const NotFound = () => {
             <h1>4<span>0</span>4</h1>
             <h2>Page not Found</h2>
             <Link style={{textDecoration:'none'}} to="/home">
-            <Button sx={{my:'10px'}} variant="contained">Back to home page</Button>
+            <Button sx={{my:'10px' , bgcolor:'crimson'}} variant="contained">Back to home page</Button>
             </Link>
             </div>
             <Footer></Footer>

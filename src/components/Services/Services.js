@@ -24,7 +24,7 @@ const Services = () => {
                     <Link style={{
                         textDecoration:'none'
                     }} to="/services">
-                    <Button sx={{mt:'20px' , mb:'40px' , py:'10px',px:'30px' ,bgcolor:'#F7B213' , color:'#16364D', fontSize:'20px', fontWeight:'600'}} variant="contained">Upcoming Courses</Button>
+                    <Button sx={{mt:'20px' , mb:'40px' , py:'10px',px:'30px' ,bgcolor:'crimson' , color:'#ffffff', fontSize:'20px', fontWeight:'600'}} variant="contained">Upcoming Courses</Button>
                 </Link>
                 </div>
             </div>

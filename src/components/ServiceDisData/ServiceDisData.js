@@ -8,7 +8,7 @@ const ServiceDisData = (props) => {
 
     return (
         <div>
-            <Card className="card" sx={{color: '#F9D209',bgcolor: '#0D3050'}}>
+            <Card  className="card" sx={{color: '#202C45',bgcolor: '#FBE0E7'}}>
       <CardActionArea>
         <CardMedia
           component="img"

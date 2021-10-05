@@ -16,5 +16,5 @@
 }
 
 .contact_field input:focus , .contact_field textarea:focus{
-    border-color: chartreuse;
+    border-color: crimson;
 }

@@ -2,13 +2,13 @@ import { Button, Card, CardActionArea, CardContent, CardMedia, Typography } from
 import React from 'react';
 
 
-const HeaderData = (props) => {
+const HomeData = (props) => {
 
   const { img, title, instructor, institution, duration, price } = props.data;
 
     return (
       <div>
-         <Card  className="card" sx={{color: '#F9D209',bgcolor: '#0D3050'}}>
+         <Card  className="card" sx={{color: '#202C45',bgcolor: '#FBE0E7'}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -43,4 +43,4 @@ const HeaderData = (props) => {
     );
 };
 
-export default HeaderData;
+export default HomeData;
