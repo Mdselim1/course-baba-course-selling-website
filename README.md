@@ -24,6 +24,4 @@
 
 7 . Material Ui ,
 
-## This is my Assignment 9 Project
-
 ## All Right Reserved By Selim
